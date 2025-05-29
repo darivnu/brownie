@@ -15,9 +15,9 @@ export interface RouteConfig {
 export const config: RouteConfig = {
   routes: {
     cocoa:
-      "https://jabolo-stats.vercel.app/api?username=Jabolol&theme=dracula&hide_border=false&include_all_commits=false&count_private=true&show_icons=true",
+      "https://jabolo-stats.vercel.app/api?username=darivnu&theme=omni&hide_border=false&include_all_commits=true&count_private=true&show_icons=true",
     vanilla:
-      "https://github-readme-streak-stats.herokuapp.com/?user=Jabolol&theme=dracula&hide_border=false",
+      "https://github-readme-streak-stats.herokuapp.com/?user=darivnu&theme=omni&hide_border=false",
   },
   schedule: "*/20 * * * *",
 };
